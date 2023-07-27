@@ -70,7 +70,7 @@ const Banner = () => {
             >
 
             <button className='btn btn-lg'>Contact me</button>
-            <a href='#' className='text-gradient btn-link'>My Portfolio</a>
+            <a href='/' className='text-gradient btn-link'>My Portfolio</a>
         </motion.div>
 
         {/* socials*/}
@@ -81,13 +81,13 @@ const Banner = () => {
         viewport={{once: false, amount: 0.7}} 
         className='flex text-[20px] gap-x-6 max-w-max mx-auto
         lg:mx-0'>
-          <a href='#'>
+          <a href='/'>
             <FaYoutube />
           </a>
-          <a href='#'>
+          <a href='/'>
             <FaGithub />
           </a>
-          <a href='#'>
+          <a href='/'>
             <FaDribbble />
           </a>
         </motion.div>
